@@ -1,7 +1,10 @@
-
-
 div {
 	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: #99997A;
 }
 
 #navbar {
@@ -10,29 +13,76 @@ div {
 	height: 30px;
 	width: 100%;
 	text-align: right;
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;
 }
 
-#navbar ul li {
+div ul li {
 	display: inline-block;
+	margin-left: 10px;
+	vertical-align: middle;
 }
 
 li img {
-	width: 15px;
-	height: 15px;
+	width: 30px;
+	height: 30px;
 }
 
-img {
+#searchForm {
+	position: relative;
+	vertical-align: middle;
+	margin-top: 100px;
+	margin-left: 100px;
+	height: 380px;
+	width: 100%;
+	left: 25%;
+	top: 25%;
+}
+
+#searchForm img {
 	display: block;
+	float: top;
 	height: 200px;
 	width: 500px;
 	left: 500px;
 	top: 500px;
 }
 
-#searchForm {
+#searchForm input {
 	position: relative;
-	height: 380px;
+	display: block;
+	float: top;
+	height: 30px;
+	width: 500px;
+}
+
+.buttonDiv {
+	margin-left: 50px;
+}
+
+#searchForm button {
+	display: inline-block;
+	margin-left: 50px;
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0px;
 	width: 100%;
-	left: 25%;
-	top: 25%;
+	height: 50px;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
 }
